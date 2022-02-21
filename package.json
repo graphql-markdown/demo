@@ -14,8 +14,8 @@
     "doc": "docusaurus graphql-to-doc"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-beta.16",
-    "@docusaurus/preset-classic": "2.0.0-beta.16",
+    "@docusaurus/core": "2.0.0-beta.15",
+    "@docusaurus/preset-classic": "2.0.0-beta.15",
     "@edno/docusaurus2-graphql-doc-generator": "1.8.3",
     "@graphql-tools/url-loader": "7.7.1",
     "@mdx-js/react": "^1.6.21",
