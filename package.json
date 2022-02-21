@@ -1,0 +1,38 @@
+{
+  "name": "graphql-markdown",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "dev": "docusaurus start",
+    "doc": "docusaurus graphql-to-doc"
+  },
+  "dependencies": {
+    "@docusaurus/core": "2.0.0-beta.16",
+    "@docusaurus/preset-classic": "2.0.0-beta.16",
+    "@edno/docusaurus2-graphql-doc-generator": "1.8.3",
+    "@graphql-tools/url-loader": "7.7.1",
+    "@mdx-js/react": "^1.6.21",
+    "clsx": "^1.1.1",
+    "graphql": "16.3.0",
+    "prism-react-renderer": "^1.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "browserslist": {
+    "production": [">0.5%", "not dead", "not op_mini all"],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "GraphQL Markdown demonstration",
+  "keywords": []
+}
