@@ -16,7 +16,7 @@ const config = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "graphql-markdown", // Usually your GitHub org/user name.
-  projectName: "graphql-mardown", // Usually your repo name.
+  projectName: "graphql-markdown", // Usually your repo name.
   plugins: [["@edno/docusaurus2-graphql-doc-generator", graphqlMarkdownConfig]],
   presets: [
     [
