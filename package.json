@@ -1,7 +1,18 @@
 {
   "name": "graphql-markdown",
+  "homepage": "https://graphql-markdown.github.io/graphql-markdown",
   "version": "0.0.0",
   "private": true,
+  "bugs": {
+    "url": "https://github.com/graphql-markdown/graphql-markdown/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/graphql-markdown/graphql-markdown-demo.git"
+  },
+  "author": {
+    "name": "Gregory Heitz"
+  },
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
