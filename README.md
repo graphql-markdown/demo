@@ -1,6 +1,6 @@
 # GraphQL Markdown Demo
 
-CodeSandbox demo repository of [GraphQL Markdown](https://edno.github.io/graphql-markdown/), a GraphQL documentation generator.
+CodeSandbox demo repository of [GraphQL Markdown](https://graphql-markdown.github.io/graphql-markdown/), a GraphQL documentation generator.
 
 ## Try it
 
