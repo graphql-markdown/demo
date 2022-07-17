@@ -25,10 +25,10 @@
     "doc": "docusaurus graphql-to-doc"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-beta.20",
-    "@docusaurus/preset-classic": "^2.0.0-beta.20",
-    "@edno/docusaurus2-graphql-doc-generator": "^1.10.0",
-    "@graphql-tools/url-loader": "^7.9.21",
+    "@docusaurus/core": "^2.0.0-rc.1",
+    "@docusaurus/preset-classic": "^2.0.0-rc.1",
+    "@edno/docusaurus2-graphql-doc-generator": "^1.11.0",
+    "@graphql-tools/url-loader": "^7.12.1",
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
     "graphql": "^16.5.0",
