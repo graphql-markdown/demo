@@ -1601,10 +1601,10 @@
     url-loader "^4.1.1"
     webpack "^5.73.0"
 
-"@edno/docusaurus2-graphql-doc-generator@^1.12.0":
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/@edno/docusaurus2-graphql-doc-generator/-/docusaurus2-graphql-doc-generator-1.12.0.tgz#cb2240686dc27d0c2f7f5bce2ab7e787724669b4"
-  integrity sha512-yFADGkwQrLzZeot1EDhDTBQNmaQN1MsfIUj4w22TQ3Z0Lm0FF556d9sM6WcdxdL52HNKONQaOoVAakZwrclZUg==
+"@edno/docusaurus2-graphql-doc-generator@^1.12.1":
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/@edno/docusaurus2-graphql-doc-generator/-/docusaurus2-graphql-doc-generator-1.12.1.tgz#ac8ce545f6421c49add769589289aceb83ab3547"
+  integrity sha512-V2Nrur96kANZG7geMsVmG9nYKzzZmVgy6vxy6G/aByRIyRQBxpvROSKTt4G704BZpreF7f5eAC2H9OY2xCxdcQ==
   dependencies:
     "@graphql-inspector/core" "^3.3.0"
     "@graphql-tools/graphql-file-loader" "^7.5.2"
