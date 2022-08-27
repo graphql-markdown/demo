@@ -19,6 +19,11 @@ This documentation has been automatically generated using [GraphQL Jobs API](htt
   "homepage": "./static/index.md",
   "loaders": {
     "UrlLoader": "@graphql-tools/url-loader"
+  },
+  "docOptions": {
+    "pagination": false,
+    "toc": false,
+    "index": true
   }
 }
 ```
