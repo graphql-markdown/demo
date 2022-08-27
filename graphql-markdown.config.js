@@ -1,5 +1,5 @@
 module.exports = {
-  schema: "https://api.spacex.land/graphql/",
+  schema: "https://api.graphql.jobs",
   rootPath: "./docs",
   baseURL: "/",
   homepage: "static/index.md",
