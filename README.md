@@ -1,4 +1,4 @@
-# GraphQL-Markdown Demo
+# GraphQL-Markdown demo
 
 CodeSandbox demo repository of [GraphQL-Markdown](https://graphql-markdown.github.io), a GraphQL documentation generator.
 
