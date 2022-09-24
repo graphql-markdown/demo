@@ -8,15 +8,15 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My GraphQL Documentation",
-  tagline: "GraphQL is cool",
+  title: "My GraphQL documentation",
+  tagline: "GraphQL-Markdown is cool",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "graphql-markdown", // Usually your GitHub org/user name.
-  projectName: "graphql-markdown", // Usually your repo name.
+  projectName: "graphql-markdown-demo", // Usually your repo name.
   plugins: [["@edno/docusaurus2-graphql-doc-generator", graphqlMarkdownConfig]],
   presets: [
     [
@@ -39,7 +39,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "GraphQL Documentation",
+        title: "GraphQL-Markdown",
         logo: {
           alt: "graphql-markdown",
           src: "img/graphql-markdown.svg"
@@ -53,9 +53,9 @@ const config = {
         ]
       },
       footer: {
-        style: "dark",
+        style: "light",
         links: [],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`
+        copyright: `Copyright © ${new Date().getFullYear()} GraphQL-Markdown, Inc. Built with Docusaurus.`
       },
       prism: {
         theme: lightCodeTheme,
