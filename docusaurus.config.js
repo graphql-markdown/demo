@@ -17,7 +17,7 @@ const config = {
   favicon: "img/favicon.ico",
   organizationName: "graphql-markdown", // Usually your GitHub org/user name.
   projectName: "graphql-markdown-demo", // Usually your repo name.
-  plugins: [["@edno/docusaurus2-graphql-doc-generator", graphqlMarkdownConfig]],
+  plugins: [["@graphql-markdown/docusaurus", graphqlMarkdownConfig]],
   presets: [
     [
       "classic",
