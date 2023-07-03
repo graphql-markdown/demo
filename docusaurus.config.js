@@ -1,8 +1,5 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-
-const graphqlMarkdownConfig = require("./graphql-markdown.config");
-
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
@@ -17,7 +14,7 @@ const config = {
   favicon: "img/favicon.ico",
   organizationName: "graphql-markdown", // Usually your GitHub org/user name.
   projectName: "graphql-markdown-demo", // Usually your repo name.
-  plugins: [["@graphql-markdown/docusaurus", graphqlMarkdownConfig]],
+  plugins: ["@graphql-markdown/docusaurus"], // See .graphqlrc for configuration
   presets: [
     [
       "classic",

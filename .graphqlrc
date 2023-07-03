@@ -1,0 +1,14 @@
+schema: 'https://api.graphql.jobs'
+extensions:
+  graphql-markdown:
+    rootPath: ./docs
+    baseURL: /
+    homepage: static/index.md
+    loaders:
+      UrlLoader: '@graphql-tools/url-loader'
+    docOptions:
+      pagination: false
+      toc: false
+      index: true
+    printTypeOptions:
+      deprecated: group
