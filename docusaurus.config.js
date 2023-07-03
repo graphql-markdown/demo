@@ -43,7 +43,7 @@ const config = {
         },
         items: [
           {
-            href: "https://github.com/edno/graphql-markdown",
+            href: "https://github.com/graphql-markdown/graphql-markdown",
             label: "GitHub",
             position: "right"
           }
