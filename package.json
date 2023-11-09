@@ -1,5 +1,7 @@
 {
   "name": "graphql-markdown-demo",
+  "description": "GraphQL-Markdown demonstration",
+  "keywords": [],
   "homepage": "https://graphql-markdown.github.io",
   "version": "0.0.0",
   "private": true,
@@ -48,6 +50,7 @@
       "last 1 safari version"
     ]
   },
-  "description": "GraphQL-Markdown demonstration",
-  "keywords": []
+  "engines": {
+    "node": ">=18.0"
+  }
 }
