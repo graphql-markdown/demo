@@ -1,4 +1,4 @@
-schema: 'https://api.graphql.jobs'
+schema: 'https://rickandmortyapi.com/graphql'
 extensions:
   graphql-markdown:
     rootPath: ./docs

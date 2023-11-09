@@ -1,0 +1,107 @@
+---
+id: location
+title: Location
+hide_table_of_contents: false
+---
+
+
+
+
+export const Bullet = () => <><span style={{ fontWeight: 'normal', fontSize: '.5em', color: 'var(--ifm-color-secondary-darkest)' }}>&nbsp;●&nbsp;</span></>
+
+export const SpecifiedBy = (props) => <>Specification<a className="link" style={{ fontSize:'1.5em', paddingLeft:'4px' }} target="_blank" href={props.url} title={'Specified by ' + props.url}>⎘</a></>
+
+export const Badge = (props) => <><span className={props.class}>{props.text}</span></>
+
+import { useState } from 'react';
+
+export const Details = ({ dataOpen, dataClose, children, startOpen = false }) => {
+  const [open, setOpen] = useState(startOpen);
+  return (
+    <details {...(open ? { open: true } : {})} className="details" style={{ border:'none', boxShadow:'none', background:'var(--ifm-background-color)' }}>
+      <summary
+        onClick={(e) => {
+          e.preventDefault();
+          setOpen((open) => !open);
+        }}
+        style={{ listStyle:'none' }}
+      >
+      {open ? dataOpen : dataClose}
+      </summary>
+      {open && children}
+    </details>
+  );
+};
+
+
+
+
+
+
+
+
+
+
+
+```graphql
+type Location {
+  id: ID
+  name: String
+  type: String
+  dimension: String
+  residents: [Character]!
+  created: String
+}
+```
+
+
+
+
+### Fields
+
+#### [<code style={{ fontWeight: 'normal' }}>Location.<b>id</b></code>](#)<Bullet />[`ID`](/scalars/id) <Badge class="badge badge--secondary" text="scalar"/> 
+> 
+> 
+> The id of the location.
+> 
+
+#### [<code style={{ fontWeight: 'normal' }}>Location.<b>name</b></code>](#)<Bullet />[`String`](/scalars/string) <Badge class="badge badge--secondary" text="scalar"/> 
+> 
+> 
+> The name of the location.
+> 
+
+#### [<code style={{ fontWeight: 'normal' }}>Location.<b>type</b></code>](#)<Bullet />[`String`](/scalars/string) <Badge class="badge badge--secondary" text="scalar"/> 
+> 
+> 
+> The type of the location.
+> 
+
+#### [<code style={{ fontWeight: 'normal' }}>Location.<b>dimension</b></code>](#)<Bullet />[`String`](/scalars/string) <Badge class="badge badge--secondary" text="scalar"/> 
+> 
+> 
+> The dimension in which the location is located.
+> 
+
+#### [<code style={{ fontWeight: 'normal' }}>Location.<b>residents</b></code>](#)<Bullet />[`[Character]!`](/objects/character) <Badge class="badge badge--secondary" text="non-null"/> <Badge class="badge badge--secondary" text="object"/> 
+> 
+> 
+> List of characters who have been last seen in the location.
+> 
+
+#### [<code style={{ fontWeight: 'normal' }}>Location.<b>created</b></code>](#)<Bullet />[`String`](/scalars/string) <Badge class="badge badge--secondary" text="scalar"/> 
+> 
+> 
+> Time at which the location was created in the database.
+> 
+
+
+
+### Returned by
+
+[`location`](/queries/location)  <Badge class="badge badge--secondary" text="query"/><Bullet />[`locationsByIds`](/queries/locations-by-ids)  <Badge class="badge badge--secondary" text="query"/>
+
+### Member Of
+
+[`Character`](/objects/character)  <Badge class="badge badge--secondary" text="object"/><Bullet />[`Locations`](/objects/locations)  <Badge class="badge badge--secondary" text="object"/>
+
