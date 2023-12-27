@@ -21,8 +21,10 @@ extensions:
     loaders:
       UrlLoader: '@graphql-tools/url-loader'
     docOptions:
-      pagination: false
-      toc: false
+      frontMatter:
+        pagination_next: null
+        pagination_prev: null
+        hide_table_of_contents: true
       index: true
     printTypeOptions:
       deprecated: group
